@@ -4,7 +4,7 @@
 // codes:- A=65, Z=90, a=97, z=122).
 
 // var character = prompt("Please enter your character to check whether the given input is a number, uppercase letter or lower case letter")
-// var value = character
+// var value = character;
 // // checking for numbers
 // if(value >= 48 && value <= 57){
 //   alert(character + " is number");
@@ -20,6 +20,7 @@
 // else{
 //   alert("Given input is not a number or letter");
 // }
+// -----------------------------------------------
 
 
 // 2. Write a JavaScript program that accept two integers and
