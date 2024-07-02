@@ -1,7 +1,7 @@
 // 1. Declare and initialize an empty multidimensional array.
 // (Array of arrays)
 
-var emptyArr = [[],[],[]]
+// var emptyArr = [[],[],[]]
 
 
 // 2. Declare and initialize a multidimensional array 
@@ -38,21 +38,22 @@ var emptyArr = [[],[],[]]
 // fruits = [“apple”, “banana”, “mango”, “orange”, 
 // “strawberry”]
 
-//  var  fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+ var  fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
-//  for(var i =0; i<fruits.length; i++){
+ for(var i =0; i<fruits.length; i++){
   
-//   for(var j=0; j<fruits[i].length; j++){
-//     document.write(fruits[i][j] )
-//     }
-//   document.write("<br>")
-//  }
+  // for(var j=0; j<fruits[i].length; j++){
+  //   document.write(fruits[i][j] )
+  //   }
+  // document.write(fruits[i])
+  // document.write("<br>")
+ }
 
-//  var  indexNo = 0;
-//  for(var i =0; i<fruits.length; i++){
-//   indexNo = i;
-//   document.write("Element at index " + indexNo +" is " + fruits[i] + "<br>")
-//  }
+ var  indexNo = 0;
+ for(var i =0; i<fruits.length; i++){
+  indexNo = i;
+  document.write("Element at index " + indexNo +" is " + fruits[i] + "<br>")
+ }
 
  
 
@@ -72,10 +73,10 @@ var emptyArr = [[],[],[]]
 // document.write("<br>");
 // document.write("<br>")
 // document.write("<h3>Reverse Counting:" +"<br></h3>")
-// for(var i = 10; i>=1; i--){
+//  for(var i = 10; i>=1; i--){
   
-//   document.write( i + " ,")
-// }
+//    document.write( i + " ,")
+//  }
 // document.write("<br>");
 // document.write("<br>")
 // document.write("<h3>Even:" +"<br></h3>")
